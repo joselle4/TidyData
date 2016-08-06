@@ -9,12 +9,19 @@ Variables are listed below:
 * subject: integer class listing all the participants of the data
 * activityID: integer class listing the activities
 * activity: factor class equivalent of activityID. Factors are: 
-** 1-WALKING
-** 2-WALKING_UPSTAIRS
-** 3-WALKING_DOWNSTAIRS
-** 4-SITTING
-** 5-STANDING
-** 6-LAYING
+
+1 WALKING
+
+2 WALKING_UPSTAIRS
+
+3 WALKING_DOWNSTAIRS
+
+4 SITTING
+
+5 STANDING
+
+6 LAYING
+
 * group: character class classifying test vs training data
 
 The remaining variables are mean and standard deviation measurements from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. Prefix ’t’ denotes time domain signals. Prefix ‘f’ denotes frequency domain signals. Suffixes ’X’, ‘Y’ or ‘Z’ denotes 3-axial signals in the X, Y and Z directions.
