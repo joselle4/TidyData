@@ -33,11 +33,11 @@ This repo includes the following files:
 
 - ‘measurementsMeanStdDev.txt’: data output from run_analysis.R providing the means and standard deviations of all the measurements from training and test set.  This reflects Step 2 in the description above.
 
-- ‘measurementsMeanStdDevRAW.txt’: raw data output without row names from run_analysis.R providing the means and standard deviations of all the measurements from training and test set.  This reflects Step 2 in the description above.
+- ‘measurementsMeanStdDevRAW.txt’: raw data output with row.names = FALSE from run_analysis.R providing the means and standard deviations of all the measurements from training and test set.  This reflects Step 2 in the description above.
 
 - ‘activitySubjectMeasurementMeans.txt’: data output from run_analysis.R providing the means by measurement, activity and subject.  This reflects Step 5 in the description above.
 
-- ‘activitySubjectMeasurementMeansRAW.txt’: raw data output without row names from run_analysis.R providing the means by measurement, activity and subject.  This reflects Step 5 in the description above.
+- ‘activitySubjectMeasurementMeansRAW.txt’: raw data output with row.names = FALSE from run_analysis.R providing the means by measurement, activity and subject.  This reflects Step 5 in the description above.
 
 Steps of ‘run_analysis.R’:
 ==============================

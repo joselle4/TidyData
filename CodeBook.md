@@ -1,9 +1,9 @@
 CodeBook for the following files:
 =================================
 * ‘measurementsMeanStdDev.txt’: contains all the variables listed in this codebook. Data output from run_analysis.R providing the means and standard deviations of all the measurements from training and test set.
-* ‘measurementsMeanStdDevRAW.txt’: contains all the variables listed in this codebook. Raw data output without row names from run_analysis.R providing the means and standard deviations of all the measurements from training and test set.
+* ‘measurementsMeanStdDevRAW.txt’: contains all the variables listed in this codebook. Raw data output with row.names = FALSE from run_analysis.R providing the means and standard deviations of all the measurements from training and test set.
 * ‘activitySubjectMeasurementMeans.txt’: contains only the mean variables in this codebook along with the subject and activity variables. Data output from run_analysis.R providing the means by measurement, activity and subject.
-* ‘activitySubjectMeasurementMeansRAW.txt’: contains only the mean variables in this codebook along with the subject and activity variables. Raw data output without row names from run_analysis.R providing the means by measurement, activity and subject.
+* ‘activitySubjectMeasurementMeansRAW.txt’: contains only the mean variables in this codebook along with the subject and activity variables. Raw data output with row.names = FALSE from run_analysis.R providing the means by measurement, activity and subject.
 
 Variables are listed below:
 ==================================
