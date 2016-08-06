@@ -1,7 +1,7 @@
 CodeBook for the following files:
 =================================
-* ‘measurementsMeanStdDev.txt’: contains all the variables listed in this codebook.
-* ‘activitySubjectMeasurementMeans.txt’: contains only the mean variables in this codebook along with the subject and activity variables.
+* ‘measurementsMeanStdDev.txt’: contains all the variables listed in this codebook. Data output from run_analysis.R providing the means and standard deviations of all the measurements from training and test set.
+* ‘activitySubjectMeasurementMeans.txt’: contains only the mean variables in this codebook along with the subject and activity variables. Data output from run_analysis.R providing the means by measurement, activity and subject.
 
 Variables are listed below:
 ==================================
