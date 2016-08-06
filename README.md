@@ -5,7 +5,7 @@ Coursera
 
 GitHub repository: 
 ==============================
-[link here]
+https://github.com/joselle4/TidyData.git
 
 Description:
 ==============================
