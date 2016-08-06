@@ -59,6 +59,8 @@ dtMeanStDev <- dtMergeTestTrain[ , grepl("subject|activity|group|mean|std",
                                          colnames(dtMergeTestTrain))]
 write.table(dtMeanStDev, file = paste0(dirTidyData, 
                                        "/measurementsMeanStdDev.txt"))
+write.table(dtMeanStDev, file = paste0(dirTidyData, 
+                                       "/measurementsMeanStdDevRAW.txt"))
 
 # for step 5 of the course project:
 # create a second tidy data with the average of each 
@@ -71,3 +73,6 @@ dtMeanbyActSub <- aggregate(dtMean[,(4:49)],
 dtMeanbyActSub <- rename(dtMeanbyActSub, subject = Group.1, activity = Group.2)
 write.table(dtMeanbyActSub, file = paste0(dirTidyData, 
                                           "/activitySubjectMeasurementMeans.txt"))
+write.table(dtMeanbyActSub, 
+            file = paste0(dirTidyData,  "/activitySubjectMeasurementMeansRAW.txt"),
+            row.names = FALSE)
