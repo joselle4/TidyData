@@ -40,14 +40,14 @@ Steps of ‘run_analysis.R’:
 1. Load the following libraries: dtplyr, plyr, dplyr, data.table, stringr, stats
 2. Set directories and file paths
 3. Read the following files as data tables: 
-a. 'features.txt': List of all features.
-b. 'activity_labels.txt': Links the class labels with their activity name.
-c. 'train/subject_train.txt': Training subjects.
-d. 'train/X_train.txt': Training set; loaded using features as column names.
-e. 'train/y_train.txt': Training labels.
-f. 'test/subject_test.txt': Test subjects.
-g. 'test/X_test.txt': Test set; loaded using features as column names.
-h. 'test/y_test.txt': Test labels.
+* 'features.txt': List of all features.
+* 'activity_labels.txt': Links the class labels with their activity name.
+* 'train/subject_train.txt': Training subjects.
+* 'train/X_train.txt': Training set; loaded using features as column names.
+* 'train/y_train.txt': Training labels.
+* 'test/subject_test.txt': Test subjects.
+* 'test/X_test.txt': Test set; loaded using features as column names.
+* 'test/y_test.txt': Test labels.
 4. Merge activity labels to the y_train and y_test data tables 
 5. Add group column to classify between the train or test data
 6. Combine subject, activity and x tables for train and test data
